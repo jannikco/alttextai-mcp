@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-alttextai",
+      "description": "Connect AI agents to AltText.ai using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-alttextai/SKILL.md": "0b76ef29a1041e7d764f998249d97726b70e77d2a1f987b896e6f0d00ea84889"
+  }
+}
