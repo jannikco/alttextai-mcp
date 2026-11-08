@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "0ba6b97ebbbb23c40984dea0e832833b08194f20e391d725a9a7859acdda1d65",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://alttext.ai/openapi.yml"
+  ],
+  "id": "alttextai-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AltText.ai MCP setup and connection checker",
+  "description": "Generate AltText.ai MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "alttextai",
+  "appName": "AltText.ai",
+  "providerDocs": "https://alttext.ai/openapi.yml",
+  "providerWebsite": "https://alttext.ai/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://alttext.ai/apidocs",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-alttextai-mcp"
+}
